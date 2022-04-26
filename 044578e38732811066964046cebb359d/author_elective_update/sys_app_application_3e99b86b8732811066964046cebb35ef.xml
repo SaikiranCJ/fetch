@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="DELETE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>Adopting Centers</name>
+        <order>100</order>
+        <roles>x_567080_fetch.adopting_centers_user</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-17 13:46:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3e99b86b8732811066964046cebb35ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Adopting Centers</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Fetch" source="x_567080_fetch">044578e38732811066964046cebb359d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fetch">044578e38732811066964046cebb359d</sys_scope>
+        <sys_update_name>sys_app_application_3e99b86b8732811066964046cebb35ef</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-17 13:46:10</sys_updated_on>
+        <title>Adopting Centers</title>
+        <view_name/>
+    </sys_app_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Fetch">044578e38732811066964046cebb359d</application>
+        <file_path/>
+        <instance_id>a2a4726e1bd149107d9d2f8dee4bcb27</instance_id>
+        <instance_name>dev123106</instance_name>
+        <name>sys_app_application_3e99b86b8732811066964046cebb35ef</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description/><device_type>browser</device_type><hint/><name>Adopting Centers</name><order>100</order><roles>x_567080_fetch.adopting_centers_user</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-04-17 13:46:10</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>3e99b86b8732811066964046cebb35ef</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Adopting Centers</sys_name><sys_overrides/><sys_package display_value="Fetch" source="x_567080_fetch">044578e38732811066964046cebb359d</sys_package><sys_policy/><sys_scope display_value="Fetch">044578e38732811066964046cebb359d</sys_scope><sys_update_name>sys_app_application_3e99b86b8732811066964046cebb35ef</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-04-17 13:46:10</sys_updated_on><title>Adopting Centers</title><view_name/></sys_app_application></record_update>]]></payload>
+        <payload_hash>1461200484</payload_hash>
+        <record_name>Adopting Centers</record_name>
+        <reverted_from/>
+        <source>804578e38732811066964046cebb359f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-17 13:46:10</sys_created_on>
+        <sys_id>fe99b86b8732811066964046cebb35f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18037c615840000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-17 13:46:10</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>3a99b86bb532811057d48e728d97daf1</update_guid>
+        <update_guid_history>3a99b86bb532811057d48e728d97daf1:1461200484</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Adopting Centers">5f7ac1ef8772811066964046cebb35ae</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-17 14:59:55</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_application">sys_app_application</sys_db_object>
+        <sys_id>38706f1a46884af99b250f70dfd65921</sys_id>
+        <sys_metadata>3e99b86b8732811066964046cebb35ef</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Adopting Centers</sys_name>
+        <sys_package display_value="Fetch" source="x_567080_fetch">044578e38732811066964046cebb359d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Fetch">044578e38732811066964046cebb359d</sys_scope>
+        <sys_scope_delete display_value="">35fdf81bdc4b4488907bba5a27ed7f71</sys_scope_delete>
+        <sys_update_name>sys_app_application_3e99b86b8732811066964046cebb35ef</sys_update_name>
+        <sys_update_version display_value="sys_app_application_3e99b86b8732811066964046cebb35ef">fe99b86b8732811066964046cebb35f1</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-17 14:59:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
