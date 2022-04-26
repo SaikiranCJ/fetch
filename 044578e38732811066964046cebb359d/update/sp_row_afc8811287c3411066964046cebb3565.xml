@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_row">
+    <sp_row action="INSERT_OR_UPDATE">
+        <class_name/>
+        <order>1</order>
+        <sp_column/>
+        <sp_container display_value="About Fetch - Container 1">d37881de8783411066964046cebb3579</sp_container>
+        <sys_class_name>sp_row</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-26 03:55:51</sys_created_on>
+        <sys_id>afc8811287c3411066964046cebb3565</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="Fetch" source="x_567080_fetch">044578e38732811066964046cebb359d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fetch">044578e38732811066964046cebb359d</sys_scope>
+        <sys_update_name>sp_row_afc8811287c3411066964046cebb3565</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-26 03:55:51</sys_updated_on>
+    </sp_row>
+</record_update>

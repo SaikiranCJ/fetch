@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_567080_fetch.adoptRequest</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>adoptRequest</name>
+        <script><![CDATA[var adoptRequest = Class.create();
+adoptRequest.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    adoptReq: function() {
+        var email = this.getParameter('sysparm_email');
+		var owner = this.getParameter('sysparm_owner');
+		var gr = new GlideRecord('x_567080_fetch_adopting_centers');
+		gr.get(owner);
+        gs.eventQueue('x_567080_fetch.DogReq', current, email, gr.email);
+		return true;
+    },
+    type: 'adoptRequest'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-18 04:56:23</sys_created_on>
+        <sys_id>0d1608338732c11066964046cebb3548</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>adoptRequest</sys_name>
+        <sys_package display_value="Fetch" source="x_567080_fetch">044578e38732811066964046cebb359d</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Fetch">044578e38732811066964046cebb359d</sys_scope>
+        <sys_update_name>sys_script_include_0d1608338732c11066964046cebb3548</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-18 06:40:13</sys_updated_on>
+    </sys_script_include>
+</record_update>

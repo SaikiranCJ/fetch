@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+};
+//options.title
+//options.short_description
+//class="text-center h4 m-b-lg sp-tagline-color"]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.sp-tagline-color {
+	color: $sp-tagline-color;
+}
+
+#homepage-search {
+  .aisearch {
+    --classicsponlydonotuse--rem-multipy: 1.6;
+  }
+}
+  </css>
+        <data_table>sp_instance_ais</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list>title,short_description,search_application,search_results_configuration,disable_all_suggestions,placeholder,ai_search_source_filter</field_list>
+        <has_preview>true</has_preview>
+        <id>homepage_search_for_fetch</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>Homepage search for fetch</name>
+        <option_schema>[{"name":"typeahead_search","default_value":"{title: 'How can we help?', size: 'lg', color: 'default'}","section":"Presentation","label":"Typeahead Search","type":"string"}]</option_schema>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[data.user = "Hello " + gs.getUserDisplayName() + ", ";
+var aisEnabled = $sp.isAISearchEnabled();
+
+if (aisEnabled)
+	data.typeAheadSearch = $sp.getWidget('typeahead-search', options);
+else
+	data.typeAheadSearch = $sp.getWidget('typeahead-search', options.typeahead_search);]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-25 14:44:03</sys_created_on>
+        <sys_id>bc93d2468747011066964046cebb35c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Homepage search for fetch</sys_name>
+        <sys_package display_value="Fetch" source="x_567080_fetch">044578e38732811066964046cebb359d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fetch">044578e38732811066964046cebb359d</sys_scope>
+        <sys_update_name>sp_widget_bc93d2468747011066964046cebb35c4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-25 14:44:03</sys_updated_on>
+        <template><![CDATA[<div id="homepage-search" class="hidden-xs wrapper-xl">
+  <div class="wrapper-xl">
+    <div align = "center">
+    <font color = "white">
+  	<h1 style = "display:inline;">{{data.user}}</h1>
+    <h4 style = "display:inline;">How can we help you ?</h4><br><br>
+    </font>
+    </div>
+  	<sp-widget widget="data.typeAheadSearch" />
+  </div>
+</div>
+]]></template>
+    </sp_widget>
+</record_update>

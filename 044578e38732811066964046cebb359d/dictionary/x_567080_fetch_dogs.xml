@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Dogs" max_length="40" name="x_567080_fetch_dogs" sizeclass="5" type="collection">
+        <element label="Adopting center" mandatory="true" max_length="32" name="adopting_center" reference="x_567080_fetch_adopting_centers" reference_qual="javascript: if(!gs.hasRole('admin')){&#13;&#10;&quot;membersLIKE&quot;+gs.getUserID()&#13;&#10;}" type="reference" use_reference_qualifier="advanced"/>
+        <element label="Age" max_length="40" name="age" type="integer"/>
+        <element choice="1" label="Breed" mandatory="true" max_length="40" name="breed" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Beegle" value="beegle"/>
+                <element inactive_on_update="false" label="Golden Retriver" value="golden_retriver"/>
+                <element inactive_on_update="false" label="Husky" value="husky"/>
+                <element inactive_on_update="false" label="Shepherd" value="shepherd"/>
+            </choice>
+        </element>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Price" max_length="20" name="price" type="price"/>
+        <element choice="3" default="active" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Active" value="active"/>
+                <element inactive_on_update="false" label="Adopted" value="adopted"/>
+                <element inactive_on_update="false" label="Pending" value="pending"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="adopting_center"/>
+        </index>
+    </element>
+</database>

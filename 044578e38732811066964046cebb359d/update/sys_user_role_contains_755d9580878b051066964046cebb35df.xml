@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="INSERT_OR_UPDATE">
+        <contains display_value="x_567080_fetch.end_user" name="x_567080_fetch.end_user">5018f5bf873ac11066964046cebb3517</contains>
+        <role display_value="x_567080_fetch.dog_manager" name="x_567080_fetch.dog_manager">5e2d9dc0878b051066964046cebb357e</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-19 05:39:15</sys_created_on>
+        <sys_id>755d9580878b051066964046cebb35df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_567080_fetch.end_user.x_567080_fetch.dog_approver</sys_name>
+        <sys_package display_value="Fetch" source="x_567080_fetch">044578e38732811066964046cebb359d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fetch">044578e38732811066964046cebb359d</sys_scope>
+        <sys_update_name>sys_user_role_contains_755d9580878b051066964046cebb35df</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-19 05:39:15</sys_updated_on>
+    </sys_user_role_contains>
+</record_update>

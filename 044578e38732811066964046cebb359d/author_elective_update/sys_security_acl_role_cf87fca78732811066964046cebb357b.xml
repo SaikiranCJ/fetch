@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-17 13:37:10</sys_created_on>
+        <sys_id>cf87fca78732811066964046cebb357b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_567080_fetch_dogs.x_567080_fetch.dogs_user</sys_name>
+        <sys_package display_value="Fetch" source="x_567080_fetch">044578e38732811066964046cebb359d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fetch">044578e38732811066964046cebb359d</sys_scope>
+        <sys_security_acl display_value="x_567080_fetch_dogs">cb87fca78732811066964046cebb3576</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_cf87fca78732811066964046cebb357b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-17 13:37:10</sys_updated_on>
+        <sys_user_role display_value="x_567080_fetch.dogs_user" name="x_567080_fetch.dogs_user">cf8734a78732811066964046cebb35c7</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Fetch">044578e38732811066964046cebb359d</application>
+        <file_path/>
+        <instance_id>a2a4726e1bd149107d9d2f8dee4bcb27</instance_id>
+        <instance_name>dev123106</instance_name>
+        <name>sys_security_acl_role_cf87fca78732811066964046cebb357b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-04-17 13:37:10</sys_created_on><sys_id>cf87fca78732811066964046cebb357b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_567080_fetch_dogs.x_567080_fetch.dogs_user</sys_name><sys_package display_value="Fetch" source="x_567080_fetch">044578e38732811066964046cebb359d</sys_package><sys_policy/><sys_scope display_value="Fetch">044578e38732811066964046cebb359d</sys_scope><sys_security_acl display_value="x_567080_fetch_dogs">cb87fca78732811066964046cebb3576</sys_security_acl><sys_update_name>sys_security_acl_role_cf87fca78732811066964046cebb357b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-04-17 13:37:10</sys_updated_on><sys_user_role display_value="x_567080_fetch.dogs_user" name="x_567080_fetch.dogs_user">cf8734a78732811066964046cebb35c7</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-1040411912</payload_hash>
+        <record_name>x_567080_fetch_dogs.x_567080_fetch.dogs_user</record_name>
+        <reverted_from/>
+        <source>804578e38732811066964046cebb359f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-17 13:37:10</sys_created_on>
+        <sys_id>df87fca78732811066964046cebb357f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18037bdda230000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-17 13:37:10</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>1b87fca7443281108e8ad0898818617f</update_guid>
+        <update_guid_history>1b87fca7443281108e8ad0898818617f:-1040411912</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_567080_fetch_dogs.x_567080_fetch.dogs_user">2f56b53f873ac11066964046cebb352b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-18 12:50:07</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>90001e7a20b84bd8af8837cdefb1b240</sys_id>
+        <sys_metadata>cf87fca78732811066964046cebb357b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_567080_fetch_dogs.x_567080_fetch.dogs_user</sys_name>
+        <sys_package display_value="Fetch" source="x_567080_fetch">044578e38732811066964046cebb359d</sys_package>
+        <sys_parent display_value="x_567080_fetch_dogs">cb87fca78732811066964046cebb3576</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Fetch">044578e38732811066964046cebb359d</sys_scope>
+        <sys_scope_delete display_value="">35fdf81bdc4b4488907bba5a27ed7f71</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_cf87fca78732811066964046cebb357b</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_cf87fca78732811066964046cebb357b">df87fca78732811066964046cebb357f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-18 12:50:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

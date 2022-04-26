@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="DELETE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <encryption_context/>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_567080_fetch.adopting_centers_user</name>
+        <requires_subscription>-1</requires_subscription>
+        <scoped_admin>false</scoped_admin>
+        <suffix>adopting_centers_user</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-17 13:46:10</sys_created_on>
+        <sys_id>b299b0e38732811066964046cebb356a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_567080_fetch.adopting_centers_user</sys_name>
+        <sys_package display_value="Fetch" source="x_567080_fetch">044578e38732811066964046cebb359d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fetch">044578e38732811066964046cebb359d</sys_scope>
+        <sys_update_name>sys_user_role_b299b0e38732811066964046cebb356a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-17 13:46:10</sys_updated_on>
+    </sys_user_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Fetch">044578e38732811066964046cebb359d</application>
+        <file_path/>
+        <instance_id>a2a4726e1bd149107d9d2f8dee4bcb27</instance_id>
+        <instance_name>dev123106</instance_name>
+        <name>sys_user_role_b299b0e38732811066964046cebb356a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description/><elevated_privilege>false</elevated_privilege><encryption_context/><grantable>true</grantable><includes_roles/><name>x_567080_fetch.adopting_centers_user</name><requires_subscription>-1</requires_subscription><scoped_admin>false</scoped_admin><suffix>adopting_centers_user</suffix><sys_class_name>sys_user_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-04-17 13:46:10</sys_created_on><sys_id>b299b0e38732811066964046cebb356a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_567080_fetch.adopting_centers_user</sys_name><sys_package display_value="Fetch" source="x_567080_fetch">044578e38732811066964046cebb359d</sys_package><sys_policy/><sys_scope display_value="Fetch">044578e38732811066964046cebb359d</sys_scope><sys_update_name>sys_user_role_b299b0e38732811066964046cebb356a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-04-17 13:46:10</sys_updated_on></sys_user_role></record_update>]]></payload>
+        <payload_hash>343878354</payload_hash>
+        <record_name>x_567080_fetch.adopting_centers_user</record_name>
+        <reverted_from/>
+        <source>804578e38732811066964046cebb359f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-17 13:46:10</sys_created_on>
+        <sys_id>3299b86b8732811066964046cebb35ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18037c6150b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-17 13:46:10</sys_updated_on>
+        <type>Role</type>
+        <update_guid>7a99b86b173281101a52a56f20c854ed</update_guid>
+        <update_guid_history>7a99b86b173281101a52a56f20c854ed:343878354</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_567080_fetch.adopting_centers_user">d416f9fb873ac11066964046cebb35e6</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-18 12:48:48</sys_created_on>
+        <sys_db_object display_value="" name="sys_user_role">sys_user_role</sys_db_object>
+        <sys_id>b111b18748e64dc491fbc4495a736c10</sys_id>
+        <sys_metadata>b299b0e38732811066964046cebb356a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_567080_fetch.adopting_centers_user</sys_name>
+        <sys_package display_value="Fetch" source="x_567080_fetch">044578e38732811066964046cebb359d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Fetch">044578e38732811066964046cebb359d</sys_scope>
+        <sys_scope_delete display_value="">35fdf81bdc4b4488907bba5a27ed7f71</sys_scope_delete>
+        <sys_update_name>sys_user_role_b299b0e38732811066964046cebb356a</sys_update_name>
+        <sys_update_version display_value="sys_user_role_b299b0e38732811066964046cebb356a">3299b86b8732811066964046cebb35ee</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-18 12:48:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
